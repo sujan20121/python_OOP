@@ -4,6 +4,7 @@
 class car(object):
 	def make_noise():
 		print('honkkk...')
+	#the method make_noise() is a static method
 		
 def main():
 	car.make_noise()
